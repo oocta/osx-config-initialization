@@ -20,3 +20,8 @@ $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/
 ```
 ## Install font
 [Hack font download](http://sourcefoundry.org/hack/)
+
+## Create SSH
+```shell
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
